@@ -1,0 +1,753 @@
+
+
+body{
+background-color:rgb(255, 217, 0);
+/*margin: 15px 40px;*/
+}
+
+.navigation .navbar .logo-toggle-container{
+    position:absolute;
+    left:50%;
+    top:2px;
+    transform:translateX(-50%);
+}
+.navigation .navbar .logo-toggle-container a{
+    display:block;
+}
+.navigation .navbar .logo-toggle-container a img{
+    width:10rem;
+}
+.navigation .menu{
+    text-align:right;
+}
+.btn{
+    border-color: white;
+    background-color: white;
+    border: none;
+    width: 9rem;
+    height: 2rem;
+}
+
+.navigation .menu li{
+    display:inline-block;
+    padding:5px 5px;
+}
+.navigation .menu li a{
+    display:block;
+    padding:10px 10px;
+    text-decoration:none;
+    font-weight:600;
+    letter-spacing:1px;
+    color:black;
+    font-size:1rem;
+}
+.navigation .menu li:nth-child(1),
+.navigation .menu li:nth-child(2),
+.navigation .menu li:nth-child(3),
+.navigation .menu li:nth-child(4)
+
+{
+    float:left;
+}
+.navigation .menu li:hover a{
+    color:#fff;
+}
+a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.search-bar{
+    background-color: white;
+    width: .1rem;
+    height: 1rem;
+}
+.search-box:hover > .search-bar{
+    width: 11rem;
+    height: 2rem;
+    border: .1rem solid black;
+    transition: 0.3s;
+}
+
+@media (max-width:768px){	
+    .search-bar{
+        background-color: white;
+        width: 6rem;
+        height: 1rem;
+    }
+    .navigation .navbar .logo-toggle-container{
+    position:static;
+    transform:translateX(0%);
+    }
+    .navigation .navbar .logo-toggle-container a{
+    width:80%;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box{
+    position:absolute;
+    right:10px;
+    top:20px;
+    display:block;
+    width:30px;
+    background:white;
+    padding:15px 9px;
+    cursor:pointer;
+    border-radius:5px;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span{
+    display:block;
+    max-width:90%;
+    margin:auto;
+    height:2px;
+    background-color:black;
+    margin-bottom:4px;
+    }
+    .navigation .navbar .logo-toggle-container .toggle-box span:last-child{
+    margin-bottom:0;
+    }
+    .navigation .menu{
+    text-align:center;
+    display:none;
+    }
+    .navigation .menu li{
+    display:block;
+    float:none !important;
+    padding:0 10px;
+    border-bottom:1px solid black;
+    }
+}
+
+
+.sec{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.announce {
+    margin: 1rem;
+    
+}
+.announce p {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.announ-head{
+    border-bottom: 3px solid white;
+}
+.announ-head p{
+    display: inline;
+    background-color: white;
+    font-size: 15px;
+    border:2px solid white;
+}
+.dmi{
+    margin: 1rem;
+}
+.dmi p{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+.dmi-head{
+    border-bottom: 3px solid white;
+    
+}
+.dmi-head p{
+    display: inline;
+    background-color: white;
+    font-size: 15px;
+    border:2px solid white;
+}
+.dmi-cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.dmi-con1{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.dmi-con1 p{
+    font-size: 1rem;
+}
+.dmi-con2{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.dmi-con2 p{
+    font-size: 1rem;
+}
+.dmi-con3{
+    padding: 1rem;
+    font-size: 2rem;
+}
+.dmi-con3 p{
+    font-size: 1rem;
+}
+
+.secondsec{
+    display:flex;
+    /*flex-direction: row;
+    flex-wrap: wrap-reverse;*/
+    
+}
+.now-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.now-box h1{
+    font-size: 5rem;
+    color: navy;
+}
+
+.now-box-img{
+    width: 20%;
+    height: 50%;
+}
+.now-box p{
+    width: 30rem;
+    font-size: 1em;
+    padding:10px 0px;
+}
+.now-box div{
+    font-size:5rem;
+    font-weight: bold;
+    padding:10px 0px;
+}
+.now-box .hash-tag{
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+}
+.now-box-img img {
+    width: 30vw;
+    height: 90vh;
+    box-shadow: -4vw -2vw 0vw rgb(0 0 0 / 10%);
+    margin-left: 5rem;
+    
+}
+
+
+.fourbox{
+    margin-top: 5em;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.fourbox h3{
+    background-color: white;
+    
+    text-align: center;
+    
+}
+.box-1{
+    border-left: 1px dotted black;
+    margin-top: 2rem;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.box-2{
+    border-left: 1px dotted black;
+    
+    margin-top: 2rem;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.one-full-box{
+    display: flex;
+    
+}
+.second-full-box{
+    display: flex;
+    
+}
+.box-3{
+    border-left: 1px dotted black;
+    width:100%;
+    margin-top: 2rem;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-4{
+    border-left: 1px dotted black;
+    width:100%;
+    margin-top: 2rem;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*.box1 {
+    flex-basis: 19vw;
+}*/
+
+.subscribe{
+    margin-top: 2rem;
+    
+}
+
+.subscribe input{
+    text-decoration: none;
+    border: 1rem solid navy;
+    background-color: navy;
+}
+.subscribe button{
+    border: 1rem solid white;
+    background-color: white;
+}
+.sub{
+    font-size: 2rem;
+    font-weight: bold;
+    width:20rem;
+    
+}
+
+::placeholder{/*placeholder mein changes*/
+    color: rgb(255, 217, 0);
+}
+
+footer{
+    width: 100%;
+    height: auto;
+}
+.SocialMedia .fab{
+    text-decoration: none;
+    text-align: center;
+    width: 1rem;
+    color: black;
+}
+.SocialMedia{
+    width: 100%;
+}
+.LastPart{
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2rem;
+    
+}
+
+/*for mobiles*/
+@media (max-width:768px){
+    .sec{
+        display: block;
+        width: auto;
+        height: auto;
+        border: .1rem dotted black;
+        box-sizing: border-box;
+    }
+    .announce{
+        width: auto;
+        height: auto;
+    }
+    .announ-head{
+        width: 100%;
+        height: auto;
+    }
+    .dmi{
+        width: auto;
+        height: auto;
+    }
+    .dmi-cont{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .secondsec{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .now-box{
+        width: auto;
+        height: auto;
+    }
+    .now-box p{
+        width: 100%;
+        height: auto;
+        font-size: 100%;
+    }
+    .now-box h1{
+        width: 100%;
+        height: auto;
+        font-size: 200%;
+    }
+    .hash-tag{
+        width: auto;
+        height: auto;
+        font-size: 100%;
+    }
+    .now-box-img img{
+        width: 100%;
+        height: 100%;
+        margin-left: 100%;
+    }
+    
+    .one-full-box{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .second-full-box{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .box1 h4{
+        width: 150%;
+        height: auto;
+        font-size: 200%;
+    }
+    .box1 p{
+        width: 200%;
+        height: auto;
+        font-size: 150%;
+    }
+    .box3 p{
+        width: 150%;
+        height: auto;
+        font-size: 150%;
+    }
+    .smallimg img {
+        width: 150%;
+        height:100%;
+        margin-left: 100%;
+        box-shadow : -1vw -1vw 0vw rgb(0 0 0 / 10%);
+    }
+    .subscribe{
+        width: 100%;
+        height: 80%;
+        display: block;
+    }
+    
+    .subpart{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .sub{
+        font-size: 150%;
+        padding: 1rem 0rem 
+    }
+    .SocialMedia{
+        width: auto;
+        height: auto;
+    }
+    .SocialMedia .fab{
+        width: auto;
+        height: auto;
+    }
+    .SocialMedia a{
+        padding:0px 1rem;
+    }
+    .LastPart{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    
+    footer .copyright{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:468px){
+    .sec{
+        display: block;
+        width: auto;
+        height: auto;
+        border: .1rem dotted black;
+        box-sizing: border-box;
+    }
+    .announce{
+        width: auto;
+        height: auto;
+    }
+    .announ-head{
+        width: 100%;
+        height: auto;
+    }
+    .dmi{
+        width: auto;
+        height: auto;
+    }
+    .dmi-cont{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .secondsec{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .now-box{
+        width: auto;
+        height: auto;
+    }
+    .now-box p{
+        width: 100%;
+        height: auto;
+        font-size: 100%;
+    }
+    .now-box h1{
+        width: 100%;
+        height: auto;
+        font-size: 150%;
+    }
+    .hash-tag{
+        width: auto;
+        height: auto;
+        font-size: 80%;
+    }
+    .now-box-img img{
+        width: 200%;
+        height: 200%;
+        margin-left: 150%;
+    }
+    .one-full-box{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .second-full-box{
+        display: block;
+        width: auto;
+        height: auto;
+    }
+    .box1 h4{
+        width: 150%;
+        height: auto;
+        font-size: 150%;
+    }
+    .box1 p{
+        width: 200%;
+        height: auto;
+        font-size: 100%;
+    }
+    .box3 p{
+        width: 150%;
+        height: auto;
+        font-size: 100%;
+    }
+    .smallimg img {
+        width: 100%;
+        height:100%;
+        margin-left: 100%;
+        box-shadow : -1vw -2vw 0vw rgb(0 0 0 / 10%);
+    }
+    .subscribe{
+        width: 100%;
+        height: 80%;
+        display: block;
+        font-size: 100%;
+    }
+    
+    .subpart{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .subpart input{
+        width: 50%;
+        height: auto;
+        
+    }
+    .subpart button{
+        width: 50%;
+        height: auto;
+    }
+    
+    .sub{
+        font-size: 150%;
+        padding: 1rem 0rem 
+    }
+
+    .LastPart{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .SocialMedia{
+        width: auto;
+        height: auto;
+    }
+    .SocialMedia .fab{
+        width: auto;
+        height: auto;
+    }
+    
+    footer .copyright{
+        width: 100%;
+        height: auto;
+    }
+}
+/*for laptop*/
+@media (min-width:1024px){
+    a{
+        padding:0px 0rem;
+    }
+    .navigation .menu{
+        display:block !important;
+        height:auto !important;
+    }
+    .announce{
+        width: 20rem;
+    }
+    .dmi-con1{
+        width: 20rem;
+        border-right: .1rem dotted black;
+    }
+    .dmi-con2{
+        width: 20rem;
+        border-right: .1rem dotted black;
+    }
+    .dmi-con3{
+        width: 15rem;
+        
+    }
+    .secondsec{
+        padding: 2rem;
+    }
+    .mem{
+        margin-left: 50%;
+    }
+    .one-full-box{
+        padding-left: 2rem;
+        
+    }
+    .second-full-box{
+        padding-left: 2rem;
+    }
+    .box1 h4{
+        font-size: 1.8em;
+        width: 20rem;
+    }
+    .box3{
+        width: 20rem;
+    }
+    .smallimg img {
+        width: 6rem;
+        height:6rem;
+        margin-left: 10rem;
+        box-shadow : -1vw -1vw 0vw rgb(0 0 0 / 10%);
+    }
+    .members h3{
+        margin-left: 100%;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: space-between;
+    }
+    .subscribe input{
+        margin-top: 2rem;
+    }
+    .subscribe button{
+        margin-top: 2rem;
+    }
+    .subpart{
+        display: flex;
+    justify-content: center;
+    }
+    .subpart{
+        height: 5rem;
+    }
+    .SocialMedia a{
+        padding:0px 1rem;
+    }
+}
+
+/*for tablet and ipad*/
+@media (min-width: 769px) and (max-width:1023px){
+    
+    .announce{
+        width: 20rem;
+    }
+    .dmi-con1{
+        width: 20rem;
+        border-right: .1rem dotted black;
+    }
+    .dmi-con2{
+        width: 20rem;
+        border-right: .1rem dotted black;
+    }
+    .dmi-con3{
+        width: 15rem;
+        
+    }
+    .secondsec{
+        padding: 2rem;
+    }
+    .mem{
+        margin-left: 50%;
+    }
+    .one-full-box{
+        padding-left: 2rem;
+        
+    }
+    .second-full-box{
+        padding-left: 2rem;
+    }
+    .box1 h4{
+        font-size: 1.8em;
+        width: 20rem;
+    }
+    .box3{
+        width: 20rem;
+    }
+    .smallimg img {
+        width: 6rem;
+        height:6rem;
+        margin-left: 10rem;
+        box-shadow : -1vw -1vw 0vw rgb(0 0 0 / 10%);
+    }
+    .members h3{
+        margin-left: 100%;
+    }
+    .subscribe{
+        display: flex;
+        justify-content: space-between;
+    }
+    .subscribe input{
+        margin-top: 2rem;
+    }
+    .subscribe button{
+        margin-top: 2rem;
+    }
+    .subpart{
+        display: flex;
+    justify-content: center;
+    }
+    .subpart{
+        height: 5rem;
+    }
+    .SocialMedia a{
+        padding:0px 1rem;
+    }
+}
+
+
+
